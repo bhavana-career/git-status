@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning className="h-full antialiased dark">
-      <body className="min-h-full flex flex-col bg-white text-zinc-950 transition-colors duration-300 dark:bg-zinc-950 dark:text-zinc-100">
+      <body className="min-h-full flex flex-col overflow-x-hidden bg-white text-zinc-950 transition-colors duration-300 dark:bg-zinc-950 dark:text-zinc-100">
         <Script id="theme-init" strategy="beforeInteractive">
           {themeScript}
         </Script>
